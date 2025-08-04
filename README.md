@@ -66,17 +66,10 @@ Then visit http://localhost:xxxx in your browser.
 ```bash
 ML_projects/
 │
-├── project_name/
-│   ├── src/
-│   ├── templates/
-│   ├── static/
-│   ├── app.py
-│   └── requirements.txt
-├── artifacts/
-├── logs/
-├── .gitignore
+├── machine_preventive_maintenance/
+├── LICENSE
 ├── README.md
-└── requirements.txt
+
 ```
 📌 Notes
 Large model files (e.g., .pkl) are not tracked by Git due to the 100MB limit.

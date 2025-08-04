@@ -53,7 +53,7 @@ This showcase includes a complete end-to-end ML pipeline with data preprocessing
 
 ## 📁 Directory Structure
  ```bash
-ML_projects/
+ML_projects/machine_preventive_maintenance/
 │
 ├── artifacts/ # Stores trained model, preprocessor
 ├── notebook/ # Data exploration and analysis
