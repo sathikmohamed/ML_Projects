@@ -1,7 +1,7 @@
 # 🔧 IoT Equipment Fault Prediction
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Python](https://img.shields.io/badge/python-3.10-blue)
+![Python](https://img.shields.io/badge/python-3.80-blue)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Last Commit](https://img.shields.io/github/last-commit/sathikmohamed/ML_projects)
 ![Issues](https://img.shields.io/github/issues/sathikmohamed/ML_projects)
