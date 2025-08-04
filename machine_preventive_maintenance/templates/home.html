@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IoT Equipment Failure Prediction</title>
+</head>
+<body>
+    <h1>IoT Equipment Failure Prediction</h1>
+    <form method="POST" action="/predictdata">
+        <label>Temperature:</label><br>
+        <input type="number" step="any" name="temperature" required><br>
+
+        <label>Vibration:</label><br>
+        <input type="number" step="any" name="vibration" required><br>
+
+        <label>Pressure:</label><br>
+        <input type="number" step="any" name="pressure" required><br>
+
+        <label>Voltage:</label><br>
+        <input type="number" step="any" name="voltage" required><br>
+
+        <label>Current:</label><br>
+        <input type="number" step="any" name="current" required><br>
+
+        <label>FFT Feature 1:</label><br>
+        <input type="number" step="any" name="fft_feature1" required><br>
+
+        <label>FFT Feature 2:</label><br>
+        <input type="number" step="any" name="fft_feature2" required><br>
+
+        <label>Normalized Temp:</label><br>
+        <input type="number" step="any" name="normalized_temp" required><br>
+
+        <label>Normalized Vibration:</label><br>
+        <input type="number" step="any" name="normalized_vibration" required><br>
+
+        <label>Normalized Pressure:</label><br>
+        <input type="number" step="any" name="normalized_pressure" required><br>
+
+        <label>Normalized Voltage:</label><br>
+        <input type="number" step="any" name="normalized_voltage" required><br>
+
+        <label>Normalized Current:</label><br>
+        <input type="number" step="any" name="normalized_current" required><br>
+
+        <label>Anomaly Score:</label><br>
+        <input type="number" step="any" name="anomaly_score" required><br><br>
+
+        <button type="submit">Predict</button>
+        <button type="button" onclick="window.location.href='/'">Reset</button>
+    </form>
+
+    <br>
+    {% if results is not none %}
+        <h2>Prediction Result: {{ results }}</h2>
+        {% if results == 0 %}
+            <p style="color:green;">✅ Equipment is likely normal.</p>
+        {% else %}
+            <p style="color:red;">⚠️ Equipment may be failing!</p>
+        {% endif %}
+    {% endif %}
+</body>
+</html>
