@@ -17,8 +17,17 @@ This showcase includes a complete end-to-end ML pipeline with data preprocessing
 
 ---
 
-  <h3>📸 Project Screenshots</h3>
-<p align="center"> <img src="assets/iot_demo1.JPG" alt="Model Training" width="250"/> <img src="assets/iot_demo2.JPG" alt="Prediction Page" width="250"/> <img src="assets/iot_demo3.JPG" alt="Jupyter Notebook Output" width="250"/><img src="assets/iot_demo4.JPG" alt="Jupyter Notebook Output" width="250"/> </p> <p align="center"> <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em> </p>
+<h3>📸 Project Screenshots</h3>
+<p align="center">
+  <img src="../assets/iot_demo1.JPG" alt="Model Training" width="250"/>
+  <img src="../assets/iot_demo2.JPG" alt="Prediction Page" width="250"/>
+  <img src="../assets/iot_demo3.JPG" alt="Jupyter Notebook Output" width="250"/>
+  <img src="../assets/iot_demo4.JPG" alt="Jupyter Notebook Output" width="250"/>
+</p>
+<p align="center">
+  <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em>
+</p>
+
 
 
 ## 🚀 Features
