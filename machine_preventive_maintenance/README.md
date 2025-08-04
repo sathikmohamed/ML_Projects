@@ -39,7 +39,7 @@ This showcase includes a complete end-to-end ML pipeline with data preprocessing
 ---
 
 ## 📁 Directory Structure
-
+ ```bash
 ML_projects/
 │
 ├── artifacts/ # Stores trained model, preprocessor
@@ -55,7 +55,7 @@ ML_projects/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
+ ```
 
 
 ## ⚙️ Setup Instructions
@@ -65,25 +65,24 @@ ML_projects/
    ```bash
    git clone https://github.com/sathikmohamed/ML_projects.git
    cd ML_projects
-Create virtual environment
+    ```
+   
+2.**Create virtual environment**
 
-bash
-Copy
-Edit
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-Install dependencies
+```
+3.**Install dependencies**
 
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
-Run the application
+```
 
-bash
-Copy
-Edit
+4.**Run the application**
+```bash
 python app.py
+```
 📌 Note
 Model files (model.pkl) over 100MB are not pushed to GitHub due to size limits. If you're trying to run the project locally, you will need to retrain the model or download the model.pkl and preprocessor.pkl files separately.
 
