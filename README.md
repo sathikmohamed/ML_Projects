@@ -33,31 +33,26 @@ Each project folder contains everything from data ingestion to model deployment:
 ```bash
 git clone https://github.com/<your-username>/ML_Projects.git
 cd ML_Projects
-Create a virtual environment and activate it:
-
-bash
-Copy
-Edit
+ ```
+2.**Create a virtual environment and activate it:**
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+3.**Install dependencies:**
+```bash
 pip install -r requirements.txt
 Run a specific project (e.g., Flask app):
-
-bash
-Copy
-Edit
+```
+4.**run**
+```bash
 python app.py
-Then visit http://localhost:5000 in your browser.
+Then visit http://localhost:xxxx in your browser.
+```
 
 📦 Folder Structure (Typical)
-cpp
-Copy
-Edit
+```bash
 ML_projects/
 │
 ├── project_name/
@@ -71,6 +66,7 @@ ML_projects/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 📌 Notes
 Large model files (e.g., .pkl) are not tracked by Git due to the 100MB limit.
 ⚠️ Note:
