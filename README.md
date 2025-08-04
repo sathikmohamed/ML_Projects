@@ -18,6 +18,7 @@ Each project folder contains everything from data ingestion to model deployment:
   <img src="assets/iot_demo2.jpg" alt="Web UI Prediction Form" width="250"/>
   <img src="assets/iot_demo3.jpg" alt="Jupyter Notebook Output - Metrics" width="250"/>
   <img src="assets/iot_demo4.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="/assets/iot_demo5.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
 </p>
 <p align="center">
   <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em>
