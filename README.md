@@ -31,8 +31,8 @@ Each project folder contains everything from data ingestion to model deployment:
 1. **Clone the repository:**
 
 ```bash
-git clone https://github.com/<your-username>/ML_projects.git
-cd ML_projects
+git clone https://github.com/<your-username>/ML_Projects.git
+cd ML_Projects
 Create a virtual environment and activate it:
 
 bash
