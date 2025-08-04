@@ -72,9 +72,18 @@ ML_projects/
 ├── README.md
 └── requirements.txt
 📌 Notes
-Large model files (e.g., .pkl) are not tracked by Git due to the 100MB limit. Use Git LFS if needed.
+Large model files (e.g., .pkl) are not tracked by Git due to the 100MB limit.
+⚠️ Note:
+This project does not include the trained `model.pkl` file due to GitHub's 100MB size limit.
+
+If you wish to run predictions:
+- Either train your own model using the provided pipeline, OR
+- Contact me for the model file.
+
+All core functionalities (data ingestion, transformation, model training) are available and runnable.
 
 Each project is modular, with data_ingestion, data_transformation, model_trainer, and predict_pipeline components.
 
 📫 Contact
 For queries or suggestions, feel free to reach out via GitHub Issues.
+
