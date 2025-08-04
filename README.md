@@ -11,14 +11,6 @@ Each project folder contains everything from data ingestion to model deployment:
   - Predict machine failures based on sensor data.
   - SMOTE for imbalance, Logistic Regression, Random Forest, and XGBoost.
   - Deployed via Flask with an interactive UI.
-  
-- **Credit Card Fraud Detection**
-  - Uses oversampling and Logistic Regression.
-  - ROC AUC evaluation and GridSearchCV optimization.
-
-- **House Price Prediction**
-  - Regression problem using Linear and Random Forest models.
-  - Scikit-learn pipeline for clean transformation.
 
 (More projects being added continuously...)
 
