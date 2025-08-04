@@ -11,6 +11,8 @@ Each project folder contains everything from data ingestion to model deployment:
   - Predict machine failures based on sensor data.
   - SMOTE for imbalance, Logistic Regression, Random Forest, and XGBoost.
   - Deployed via Flask with an interactive UI.
+  <h3>📸 Project Screenshots</h3>
+<p align="center"> <img src="assets/iot_demo1.png" alt="Model Training" width="250"/> <img src="assets/iot_demo2.png" alt="Prediction Page" width="250"/> <img src="assets/iot_demo3.png" alt="Jupyter Notebook Output" width="250"/><img src="assets/iot_demo4.png" alt="Jupyter Notebook Output" width="250"/> </p> <p align="center"> <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em> </p>
 
 (More projects being added continuously...)
 
