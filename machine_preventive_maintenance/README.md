@@ -19,11 +19,12 @@ This showcase includes a complete end-to-end ML pipeline with data preprocessing
 
 #### 📸 Project Screenshots
 <p align="center">
-  <img src="/assets/iot_demo1.jpg" alt="Model Training Logs" width="250"/>
-  <img src="/assets/iot_demo2.jpg" alt="Web UI Prediction Form" width="250"/>
-  <img src="/assets/iot_demo3.jpg" alt="Jupyter Notebook Output - Metrics" width="250"/>
-  <img src="/assets/iot_demo4.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
-  <img src="/assets/iot_demo5.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="../assets/iot/modelaccuracy.jpg" alt="Model Training Logs" width="250"/>
+  <img src="../assets/iot/webui.jpg" alt="Web UI Prediction Form" width="250"/>
+  <img src="../assets/iot/columnsname.jpg" alt="Jupyter Notebook Output" width="250"/>
+  <img src="../assets/iot/plots1.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="../assets/iot/plots2.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="../assets/iot/plots3.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
 </p>
 <p align="center">
   <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em>

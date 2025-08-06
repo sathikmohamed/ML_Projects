@@ -7,6 +7,24 @@ This repo showcases a collection of end-to-end ML projects using Python, coverin
 
 Each project folder contains everything from data ingestion to model deployment:
 
+- **## Movie Audience Rating Prediction 🎬**
+  -A regression-based machine learning project to predict a movie's audience rating (0–100) using metadata such as genre, cast, director, tomatometer score, runtime, and more.....
+  - The project includes data preprocessing, feature engineering, regression modeling, evaluation, and a Flask-based web interface for predictions.
+
+#### 📸 Project Screenshots
+<p align="center">
+  <img src="assets/rotton/corelation.jpg" alt="Jupyter Notebook Output" width="250"/>
+  <img src="assets/rotton/webui.jpg" alt="Web UI Prediction Form" width="250"/>
+  <img src="assets/rotton/avgrating.jpg" alt="Jupyter Notebook Output" width="250"/>
+  <img src="assets/rotton/tomatometer.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="assets/rotton/topgenre.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="assets/rotton/yearwisemovie.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+</p>
+<p align="center">
+  <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em>
+</p>
+
+
 - **IoT Equipment Fault Prediction**
   - Predict machine failures based on sensor data.
   - SMOTE for imbalance, Logistic Regression, Random Forest, and XGBoost.
@@ -14,11 +32,12 @@ Each project folder contains everything from data ingestion to model deployment:
 
 #### 📸 Project Screenshots
 <p align="center">
-  <img src="assets/iot_demo1.jpg" alt="Model Training Logs" width="250"/>
-  <img src="assets/iot_demo2.jpg" alt="Web UI Prediction Form" width="250"/>
-  <img src="assets/iot_demo3.jpg" alt="Jupyter Notebook Output - Metrics" width="250"/>
-  <img src="assets/iot_demo4.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
-  <img src="/assets/iot_demo5.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="assets/iot/modelaccuracy.jpg" alt="Model Training Logs" width="250"/>
+  <img src="assets/iot/webui.jpg" alt="Web UI Prediction Form" width="250"/>
+  <img src="assets/iot/columnsname.jpg" alt="Jupyter Notebook Output" width="250"/>
+  <img src="assets/iot/plots1.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="assets/iot/plots2.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
+  <img src="assets/iot/plots3.jpg" alt="Jupyter Notebook Output - Plots" width="250"/>
 </p>
 <p align="center">
   <em>Left: Model Training Logs &nbsp; | &nbsp; Center: Web UI Prediction Form &nbsp; | &nbsp; Right: Notebook Metrics & Plots</em>
